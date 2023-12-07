@@ -1,0 +1,30 @@
+{
+  "schemaNamespace" : "StarWarsApi",
+  "input" : {
+    "operationSearchPaths" : [
+      "**/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "**/*.graphqls",
+      "**/StarWarsSwapi.json"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "./StarWarsApi",
+      "moduleType" : {
+        "embeddedInTarget" : {
+          "name" : "starwarData"
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}
